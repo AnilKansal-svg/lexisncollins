@@ -18,13 +18,17 @@
 
         <nav class="nav-menu">
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../HTML/About.html">About</a></li>
-                <li><a href="../HTML/Service.html">Services</a></li>
-                <li><a href="../HTML/Industry.html">Expertise</a></li>
-                <li><a href="../HTML/FAQs">FAQs</a></li>
-                <li><a href="../HTML/News.html">News and Insights</a></li>
-                <li><a href="../HTML/Contact.html">Contact</a></li>
+                <li><a href="../index.html"><img src="../Vector Icons/bullet.png" class="nav-bullet" alt=""> Home</a></li>
+                <li><a href="../HTML/About.html"><img src="../Vector Icons/bullet.png" class="nav-bullet" alt=""> About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"><img src="../Vector Icons/bullet.png" class="nav-bullet" alt=""> Expertise <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><span class="dropdown-bullet">-</span> Sectors</a></li>
+                        <li><a href="#"><span class="dropdown-bullet">-</span> Practices</a></li>
+                    </ul>
+                </li>
+                <li><a href="../HTML/News.html"><img src="../Vector Icons/bullet.png" class="nav-bullet" alt=""> News and Insights</a></li>
+                <li><a href="../HTML/Contact.html"><img src="../Vector Icons/bullet.png" class="nav-bullet" alt=""> Contact</a></li>
             </ul>
         </nav>
 
@@ -92,12 +96,20 @@
             </div>
         </div>
         
+  <!-- Footer Image -->
+       
+</main>
 
-        <!-- Footer Image -->
-        <div class="footer-image">
-            <img src="../Pics/Footer.png" alt="Footer" class="footer-img">
+<footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="../Pics/footer-logo.png" alt="Lexis & Collins Logo">
         </div>
-    </main>
+        <div class="copyright-text">
+            © 2025 Lexis & Collins. Made with Love
+        </div>
+    </div>
+</footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -128,6 +140,8 @@
             }
         });
     </script>
+
+    <script src="../JS/dropdown.js"></script>
 </body>
 
 </html>

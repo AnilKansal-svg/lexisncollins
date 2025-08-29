@@ -278,7 +278,6 @@ body {
     height: 100%;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 0;
 }
 
 .service-image img {
@@ -585,6 +584,7 @@ html {
         flex: 1;
         max-width: 1022px;
         height: 678px;
+        border-radius: 4px;
         overflow: hidden;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
